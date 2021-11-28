@@ -3,11 +3,10 @@ using Microsoft.ML.Transforms;
 using Microsoft.ML.Data;
 using Microsoft.ML.Vision;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using static Microsoft.ML.DataOperationsCatalog;
 using static Microsoft.ML.Vision.ImageClassificationTrainer;
+using System.Diagnostics;
 
 namespace DetectingAppleDiseases
 {
@@ -26,34 +25,60 @@ namespace DetectingAppleDiseases
         }
 
         public void TrainModel(IEnumerable<ImageData> inputData, 
+                               Action<string> log,
+                               Architecture modelArch,
                                bool shuffle = true, 
-                               double validationSplit = 0.2, 
-                               Architecture modelArch = Architecture.ResnetV250,
-                               int epoch = 100,
-                               int batchSize = 20,
+                               double validationSplit = 0.25, 
+                               int epoch = 10,
+                               int batchSize = 32,
                                float learningRate = 0.01f)
         {
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
             var imageDataView = _ctx.Data.LoadFromEnumerable(inputData);
 
-            if (shuffle)
-            {
-                imageDataView = _ctx.Data.ShuffleRows(imageDataView);
-            }
-
+            if (shuffle) imageDataView = _ctx.Data.ShuffleRows(imageDataView);
+            
             var trainValidationData = _ctx.Data.TrainTestSplit(imageDataView, testFraction: validationSplit);
             var (trainSet, validationSet) = CreateTrainingSets(trainValidationData);
             
             _predictionModel = CreateModel(modelArch, (trainSet, validationSet), epoch, batchSize, learningRate);
             _predictionEngine = _ctx.Model.CreatePredictionEngine<ImageModelInput, ImagePrediction>(_predictionModel);
+            
+            stopWatch.Stop();
+            var ts = stopWatch.Elapsed;
+
+            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00} (Hours:Minutes:Seconds.Milliseconds)", 
+                                                ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+            log("Training model runTime: " + elapsedTime);
         }
 
-        public IEnumerable<ImagePrediction> TestModel(IEnumerable<ImageModelInput> inputData)
+        public IDataView TestModel(IEnumerable<ImageModelInput> inputData)
         {
             var testDataView = _ctx.Data.LoadFromEnumerable(inputData);
             var testSet = CreateTestSet(testDataView);
 
-            var predictions = _predictionModel.Transform(testSet);
-            return _ctx.Data.CreateEnumerable<ImagePrediction>(predictions, reuseRowObject: false);
+            return _predictionModel.Transform(testSet);
+        }
+
+        public void Evaluate(IDataView predDataView, Action<string> log)
+        {
+            var predEnum = _ctx.Data.CreateEnumerable<ImagePrediction>(predDataView, reuseRowObject: false);
+            var metrics = _ctx.MulticlassClassification.Evaluate(predDataView, labelColumnName: "LabelKey", predictedLabelColumnName: "PredictedLabel");
+            log($"LogLoss: {metrics.LogLoss}\n");
+
+            var eval = new Evaluation();
+            log($"Accuracy: {Evaluation.GetNaiveAccuracy(predEnum)}\n");
+            eval.CreateSupervizedEvaluationsMatrix(predEnum);
+
+            log("TAG\t\t\tACCURACY\t\t\tPRECISION\t\t\tRECALL(TPR)\t\t\tSPECIFICITY(TNR)\t\t\tF1-SCORE\n");
+            var fullMatrix = eval.PrintClassificationResultsMatrix();
+            for (int i = 0; i < eval.GetFullMatrixLineLength(); i++)
+            {
+                for (int j = 0; j < eval.GetFullMatrixColLength(); j++)
+                    log(fullMatrix[i][j] + "\t\t\t");
+                log("\n");
+            }
         }
 
         public string PredictSingleImage(ImageModelInput image)
@@ -98,6 +123,7 @@ namespace DetectingAppleDiseases
                 LearningRate = learningRate,
                 LabelColumnName = "LabelKey",
                 FeatureColumnName = "Image",
+                MetricsCallback = (metrics) => Console.WriteLine(metrics),
                 ValidationSet = sets.validationSet
             };
 
