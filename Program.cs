@@ -18,9 +18,9 @@ namespace DetectingAppleDiseases
                          (msg) => Console.WriteLine(msg),
                          modelArch: Microsoft.ML.Vision.ImageClassificationTrainer.Architecture.ResnetV250);
 
-            //Console.WriteLine("\n");
-            //var results = dl.TestModel(testImages);
-            //dl.Evaluate(results, (msg) => Console.Write(msg));
+            Console.WriteLine("\n");
+            var results = dl.TestModel(testImages);
+            dl.Evaluate(results, (msg) => Console.Write(msg), showConfusionMatrix: true);
 
             Console.WriteLine("\n");
             var sampleImages = Helpers.GetSampleImages();

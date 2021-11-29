@@ -63,23 +63,38 @@ namespace DetectingAppleDiseases
             return _predictionModel.Transform(testSet);
         }
 
-        public void Evaluate(IDataView predDataView, Action<string> log)
+        public void Evaluate(IDataView predDataView, 
+                             Action<string> log, 
+                             bool showLogLoss = true, 
+                             bool showAccuracy = true,
+                             bool showConfusionMatrix = true)
         {
             var predEnum = _ctx.Data.CreateEnumerable<ImagePrediction>(predDataView, reuseRowObject: false);
-            var metrics = _ctx.MulticlassClassification.Evaluate(predDataView, labelColumnName: "LabelKey", predictedLabelColumnName: "PredictedLabel");
-            log($"LogLoss: {metrics.LogLoss}\n");
 
-            var eval = new Evaluation();
-            log($"Accuracy: {Evaluation.GetNaiveAccuracy(predEnum)}\n");
-            eval.CreateSupervizedEvaluationsMatrix(predEnum);
-
-            log("TAG\t\t\tACCURACY\t\t\tPRECISION\t\t\tRECALL(TPR)\t\t\tSPECIFICITY(TNR)\t\t\tF1-SCORE\n");
-            var fullMatrix = eval.PrintClassificationResultsMatrix();
-            for (int i = 0; i < eval.GetFullMatrixLineLength(); i++)
+            if (showLogLoss)
             {
-                for (int j = 0; j < eval.GetFullMatrixColLength(); j++)
-                    log(fullMatrix[i][j] + "\t\t\t");
-                log("\n");
+                var metrics = _ctx.MulticlassClassification.Evaluate(predDataView, labelColumnName: "LabelKey", predictedLabelColumnName: "PredictedLabel");
+                log($"LogLoss: {metrics.LogLoss}\n");
+            }
+
+            if (showAccuracy)
+            {
+                log($"Accuracy: {Evaluation.GetNaiveAccuracy(predEnum)}\n");
+            }
+
+            if (showConfusionMatrix)
+            {
+                var eval = new Evaluation();
+                eval.CreateSupervizedEvaluationsMatrix(predEnum);
+
+                log("TAG\t\t\tACCURACY\t\t\tPRECISION\t\t\tRECALL(TPR)\t\t\tSPECIFICITY(TNR)\t\t\tF1-SCORE\n");
+                var fullMatrix = eval.PrintClassificationResultsMatrix();
+                for (int i = 0; i < eval.GetFullMatrixLineLength(); i++)
+                {
+                    for (int j = 0; j < eval.GetFullMatrixColLength(); j++)
+                        log(fullMatrix[i][j] + "\t\t\t");
+                    log("\n");
+                }
             }
         }
 

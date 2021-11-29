@@ -1,0 +1,474 @@
+2021-11-29 20:04:04.496292: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+Saver not created because there are no variables in the graph to restore
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   1
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   2
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   3
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   4
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   5
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   6
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   7
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   8
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   9
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  10
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  11
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  12
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  13
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  14
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  15
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  16
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  17
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  18
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  19
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  20
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  21
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  22
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  23
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  24
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  25
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  26
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  27
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  28
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  29
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  30
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  31
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  32
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  33
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  34
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  35
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  36
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  37
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  38
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  39
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  40
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  41
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  42
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  43
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  44
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  45
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  46
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  47
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  48
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  49
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  50
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  51
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  52
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  53
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  54
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  55
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  56
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  57
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  58
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  59
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  60
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  61
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  62
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  63
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  64
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  65
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  66
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  67
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  68
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  69
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  70
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  71
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  72
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  73
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  74
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  75
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  76
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  77
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  78
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  79
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  80
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  81
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  82
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  83
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  84
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  85
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  86
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  87
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  88
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  89
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  90
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  91
+Phase: Bottleneck Computation, Dataset used: Validation, Image Index:  92
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   1
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   2
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   3
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   4
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   5
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   6
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   7
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   8
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:   9
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  10
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  11
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  12
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  13
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  14
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  15
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  16
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  17
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  18
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  19
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  20
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  21
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  22
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  23
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  24
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  25
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  26
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  27
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  28
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  29
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  30
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  31
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  32
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  33
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  34
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  35
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  36
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  37
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  38
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  39
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  40
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  41
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  42
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  43
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  44
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  45
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  46
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  47
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  48
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  49
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  50
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  51
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  52
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  53
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  54
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  55
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  56
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  57
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  58
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  59
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  60
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  61
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  62
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  63
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  64
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  65
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  66
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  67
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  68
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  69
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  70
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  71
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  72
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  73
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  74
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  75
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  76
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  77
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  78
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  79
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  80
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  81
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  82
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  83
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  84
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  85
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  86
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  87
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  88
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  89
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  90
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  91
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  92
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  93
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  94
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  95
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  96
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  97
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  98
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index:  99
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 100
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 101
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 102
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 103
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 104
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 105
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 106
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 107
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 108
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 109
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 110
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 111
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 112
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 113
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 114
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 115
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 116
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 117
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 118
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 119
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 120
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 121
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 122
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 123
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 124
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 125
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 126
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 127
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 128
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 129
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 130
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 131
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 132
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 133
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 134
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 135
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 136
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 137
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 138
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 139
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 140
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 141
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 142
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 143
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 144
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 145
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 146
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 147
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 148
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 149
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 150
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 151
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 152
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 153
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 154
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 155
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 156
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 157
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 158
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 159
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 160
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 161
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 162
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 163
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 164
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 165
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 166
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 167
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 168
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 169
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 170
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 171
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 172
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 173
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 174
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 175
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 176
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 177
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 178
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 179
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 180
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 181
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 182
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 183
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 184
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 185
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 186
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 187
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 188
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 189
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 190
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 191
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 192
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 193
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 194
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 195
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 196
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 197
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 198
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 199
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 200
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 201
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 202
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 203
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 204
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 205
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 206
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 207
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 208
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 209
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 210
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 211
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 212
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 213
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 214
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 215
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 216
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 217
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 218
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 219
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 220
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 221
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 222
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 223
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 224
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 225
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 226
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 227
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 228
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 229
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 230
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 231
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 232
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 233
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 234
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 235
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 236
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 237
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 238
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 239
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 240
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 241
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 242
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 243
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 244
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 245
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 246
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 247
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 248
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 249
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 250
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 251
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 252
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 253
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 254
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 255
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 256
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 257
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 258
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 259
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 260
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 261
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 262
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 263
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 264
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 265
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 266
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 267
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 268
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 269
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 270
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 271
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 272
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 273
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 274
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 275
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 276
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 277
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 278
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 279
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 280
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 281
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 282
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 283
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 284
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 285
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 286
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 287
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 288
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 289
+Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 290
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   0, Accuracy: 0.54632354, Cross-Entropy:  1.1251968, Learning Rate:       0.01
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   0, Accuracy: 0.60044646, Cross-Entropy: 0.89275295
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   1, Accuracy: 0.75422794, Cross-Entropy:  0.7865666, Learning Rate:     0.0094
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   1, Accuracy: 0.77232146, Cross-Entropy:  0.6898457
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   2, Accuracy:  0.8229779, Cross-Entropy:  0.6292243, Learning Rate:     0.0094
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   2, Accuracy: 0.80580354, Cross-Entropy: 0.59625983
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   3, Accuracy:  0.8573529, Cross-Entropy: 0.54642993, Learning Rate:   0.008836
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   3, Accuracy: 0.83705354, Cross-Entropy: 0.53262043
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   4, Accuracy: 0.87922794, Cross-Entropy: 0.49014074, Learning Rate:   0.008836
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   4, Accuracy: 0.86272323, Cross-Entropy: 0.49335653
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   5, Accuracy:  0.9011029, Cross-Entropy: 0.45056695, Learning Rate: 0.008305839
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   5, Accuracy: 0.88839287, Cross-Entropy: 0.46070874
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   6, Accuracy:  0.9132353, Cross-Entropy: 0.41884238, Learning Rate: 0.008305839
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   6, Accuracy: 0.89620537, Cross-Entropy: 0.43873718
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   7, Accuracy:  0.9132353, Cross-Entropy: 0.39451844, Learning Rate: 0.0078074895
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   7, Accuracy: 0.91183037, Cross-Entropy: 0.41858578
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   8, Accuracy:  0.9132353, Cross-Entropy: 0.37343806, Learning Rate: 0.0078074895
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   8, Accuracy: 0.91183037, Cross-Entropy: 0.40446812
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:   9, Accuracy:  0.9132353, Cross-Entropy: 0.35662308, Learning Rate: 0.00733904
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:   9, Accuracy: 0.91183037, Cross-Entropy: 0.39067596
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  10, Accuracy: 0.91636026, Cross-Entropy: 0.34134072, Learning Rate: 0.00733904
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  10, Accuracy: 0.91183037, Cross-Entropy: 0.38079223
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  11, Accuracy: 0.92224264, Cross-Entropy: 0.32887474, Learning Rate: 0.0068986975
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  11, Accuracy: 0.91183037, Cross-Entropy: 0.37069464
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  12, Accuracy: 0.92536765, Cross-Entropy:  0.3171726, Learning Rate: 0.0068986975
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  12, Accuracy: 0.91183037, Cross-Entropy: 0.36335862
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  13, Accuracy:  0.9347426, Cross-Entropy: 0.30748874, Learning Rate: 0.0064847753
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  13, Accuracy: 0.91183037, Cross-Entropy: 0.35561144
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  14, Accuracy: 0.93786764, Cross-Entropy: 0.29818422, Learning Rate: 0.0064847753
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  14, Accuracy: 0.91183037, Cross-Entropy: 0.34993434
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  15, Accuracy:  0.9472426, Cross-Entropy: 0.29040676, Learning Rate: 0.0060956893
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  15, Accuracy: 0.91183037, Cross-Entropy: 0.34378523
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  16, Accuracy:  0.9472426, Cross-Entropy:  0.2828028, Learning Rate: 0.0060956893
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  16, Accuracy: 0.91183037, Cross-Entropy: 0.33925366
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  17, Accuracy:  0.9472426, Cross-Entropy: 0.27639955, Learning Rate: 0.0057299477
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  17, Accuracy: 0.91183037, Cross-Entropy: 0.33424723
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  18, Accuracy:  0.9503676, Cross-Entropy:  0.2700547, Learning Rate: 0.0057299477
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  18, Accuracy: 0.91183037, Cross-Entropy: 0.33054322
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  19, Accuracy:  0.9503676, Cross-Entropy:  0.2646811, Learning Rate: 0.005386151
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  19, Accuracy: 0.91183037, Cross-Entropy:  0.3263861
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  20, Accuracy:  0.9503676, Cross-Entropy: 0.25930005, Learning Rate: 0.005386151
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  20, Accuracy: 0.91183037, Cross-Entropy: 0.32330143
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  21, Accuracy:  0.9503676, Cross-Entropy: 0.25472185, Learning Rate: 0.0050629815
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  21, Accuracy: 0.91183037, Cross-Entropy:  0.3197954
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  22, Accuracy: 0.95349264, Cross-Entropy: 0.25009835, Learning Rate: 0.0050629815
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  22, Accuracy: 0.91183037, Cross-Entropy:  0.3171875
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  23, Accuracy: 0.95349264, Cross-Entropy: 0.24614993, Learning Rate: 0.0047592027
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  23, Accuracy: 0.91183037, Cross-Entropy:  0.3141929
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  24, Accuracy: 0.95349264, Cross-Entropy: 0.24213472, Learning Rate: 0.0047592027
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  24, Accuracy: 0.91183037, Cross-Entropy:  0.3119606
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  25, Accuracy: 0.95349264, Cross-Entropy:   0.238695, Learning Rate: 0.004473651
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  25, Accuracy: 0.91183037, Cross-Entropy: 0.30937594
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  26, Accuracy: 0.95349264, Cross-Entropy: 0.23517701, Learning Rate: 0.004473651
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  26, Accuracy: 0.91183037, Cross-Entropy: 0.30744535
+Phase: Training, Dataset used:      Train, Batch Processed Count:   5, Epoch:  27, Accuracy: 0.95349264, Cross-Entropy: 0.23215525, Learning Rate: 0.0042052316
+Phase: Training, Dataset used: Validation, Batch Processed Count:   2, Epoch:  27, Accuracy: 0.91183037, Cross-Entropy:  0.3051948
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vcbu2ss2.okq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.20 (Hours:Minutes:Seconds.Milliseconds)
+
+
+LogLoss: 0.5012631024168168
+Accuracy: 0.8
+TAG                     ACCURACY                        PRECISION                       RECALL(TPR)                     SPECIFICITY(TNR)        F1-SCORE
+Blotch_Apple            88.333                  	72.222                  	86.667                  	88.889                  78.788
+Normal_Apple            93.333                  	90                      	75                      	97.917                  81.818
+Rot_Apple               92.5                    	87.179                  	89.474                  	93.902                  88.312
+Scab_Apple              85.833                  	72                      	64.286                  	92.391                  67.925
+TOTAL                   90                      	80.35                   	78.857                  	93.275                  79.211
+
+
+Prediction for '21.jpg': Scab_Apple
+Prediction for '2_apples.jpg': Rot_Apple
+Prediction for 'AnyConv.com__images.jpg': Normal_Apple
+Prediction for 'apple1.jpg': Normal_Apple
+Prediction for 'apple_logo.jpg': Rot_Apple
+Prediction for 'apple_stock_photo.jpg': Rot_Apple
+Prediction for 'legit_rotten.jpg': Rot_Apple
+Prediction for 'orange.png': Rot_Apple
+Prediction for 'painting.jpg': Rot_Apple
+Prediction for 'rotten_eaten.jpg': Rot_Apple
+Prediction for 'rotten_edited.jpg': Rot_Apple
+Prediction for 'the_son_of_man.jpg': Blotch_Apple
+Prediction for 'yellow_apple.png': Rot_Apple
+
+
+D:\Projects\github\detecting-apple-fruit-diseases\bin\Debug\netcoreapp3.1\DetectingAppleDiseases.exe (process 21416) exited with code 0.
+Press any key to close this window . . .
