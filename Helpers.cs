@@ -35,6 +35,16 @@ namespace DetectingAppleDiseases
             });
         }
 
+        public static IEnumerable<ImageModelInput> GetSampleImages()
+        {
+            var path = Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "sample");
+            var files = Directory.GetFiles(path);
+            return files.Select(file => new ImageModelInput
+            {
+                Name = file
+            });
+        }
+
         public static string GetDatasetImagesPath(string evaluationType)
         {
             return Path.Combine(Environment.CurrentDirectory, "..", "..", "..", "dataset", evaluationType);

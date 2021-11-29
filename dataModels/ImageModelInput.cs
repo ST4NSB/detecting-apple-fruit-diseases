@@ -1,4 +1,6 @@
-﻿namespace DetectingAppleDiseases
+﻿using System;
+
+namespace DetectingAppleDiseases
 {
     public class ImageModelInput
     {

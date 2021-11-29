@@ -23,6 +23,8 @@
 
   <ItemGroup>
     <Folder Include="dataset\" />
+    <Folder Include="details\" />
+    <Folder Include="sample\" />
   </ItemGroup>
 
 </Project>

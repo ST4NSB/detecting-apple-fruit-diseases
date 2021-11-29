@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using static Microsoft.ML.DataOperationsCatalog;
 using static Microsoft.ML.Vision.ImageClassificationTrainer;
 using System.Diagnostics;
+using System.Text;
+using System.Linq;
 
 namespace DetectingAppleDiseases
 {
@@ -27,11 +29,11 @@ namespace DetectingAppleDiseases
         public void TrainModel(IEnumerable<ImageData> inputData, 
                                Action<string> log,
                                Architecture modelArch,
-                               bool shuffle = true, 
-                               double validationSplit = 0.25, 
-                               int epoch = 10,
-                               int batchSize = 32,
-                               float learningRate = 0.01f)
+                               bool shuffle = true,
+                               double validationSplit = 0.25,
+                               int epoch = 100,
+                               int batchSize = 64,
+                               float learningRate = 0.1f)
         {
             var stopWatch = new Stopwatch();
             stopWatch.Start();
@@ -81,11 +83,18 @@ namespace DetectingAppleDiseases
             }
         }
 
-        public string PredictSingleImage(ImageModelInput image)
+        public string ShowResults(IDataView resultsDataView)
         {
-            var output = new ImagePrediction();
-            _predictionEngine.Predict(image, ref output);
-            return output.PredictedLabel;
+            var predEnum = _ctx.Data.CreateEnumerable<ImagePrediction>(resultsDataView, reuseRowObject: false);
+            var results = new StringBuilder();
+
+            foreach(var item in predEnum)
+            {
+                var name = item.Name.Split("\\").Last();
+                results.Append($"Prediction for '{name}': {item.PredictedLabel}\n");
+            }
+
+            return results.ToString();
         }
 
         private (IDataView trainSet, IDataView validationSet) CreateTrainingSets(TrainTestData trainValidationData)
