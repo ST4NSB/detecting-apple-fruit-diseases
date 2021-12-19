@@ -414,12 +414,12 @@ Training model runTime: 00:05:33.27 (Hours:Minutes:Seconds.Milliseconds)
 
 LogLoss: 0.7551218128712583
 Accuracy: 0.675
-TAG                     ACCURACY                        PRECISION                       RECALL(TPR)                     SPECIFICITY(TNR)        F1-SCORE
-Blotch_Apple            82.5                    	60.976                  	83.333                  	82.222                  70.423
-Normal_Apple            86.667                  	70                      	58.333                  	93.75                   63.636
-Rot_Apple               87.5                    	81.081                  	78.947                  	91.463                  80
-Scab_Apple              78.333                  	54.545                  	42.857                  	89.13                   48
-TOTAL                   83.75                   	66.651                  	65.868                  	89.141                  65.515
+TAG                                             PRECISION                       RECALL(TPR)                     SPECIFICITY(TNR)        F1-SCORE
+Blotch_Apple                             	60.976                  	83.333                  	82.222                  70.423
+Normal_Apple                            	70                      	58.333                  	93.75                   63.636
+Rot_Apple                               	81.081                  	78.947                  	91.463                  80
+Scab_Apple                               	54.545                  	42.857                  	89.13                   48
+TOTAL                                		66.651                  	65.868                  	89.141                  65.515
 
 
 ~~~~~~~~~~~~~~~~ ResnetV2101 ~~~~~~~~~~~~~~~~~~

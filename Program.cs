@@ -20,7 +20,7 @@ namespace DetectingAppleDiseases
 
             Console.WriteLine("\n");
             var results = dl.TestModel(testImages);
-            dl.Evaluate(results, (msg) => Console.Write(msg), showConfusionMatrix: true);
+            dl.Evaluate(results, (msg) => Console.Write(msg), showConfusionMatrix: false);
 
             Console.WriteLine("\n");
             var sampleImages = Helpers.GetSampleImages();

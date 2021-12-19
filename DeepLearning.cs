@@ -31,9 +31,9 @@ namespace DetectingAppleDiseases
                                Architecture modelArch,
                                bool shuffle = true,
                                double validationSplit = 0.25,
-                               int epoch = 100,
-                               int batchSize = 64,
-                               float learningRate = 0.1f)
+                               int epoch = 10,
+                               int batchSize = 32,
+                               float learningRate = 0.01f)
         {
             var stopWatch = new Stopwatch();
             stopWatch.Start();

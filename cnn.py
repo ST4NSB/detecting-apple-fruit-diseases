@@ -16,7 +16,7 @@ train_data = tf.keras.utils.image_dataset_from_directory(directory=train_path,
                                                          seed=123,
                                                          batch_size=batch_size,
                                                          image_size=(img_size, img_size),
-                                                         validation_split=0.2,
+                                                         validation_split=0.25,
                                                          subset="validation")
 
 
@@ -41,5 +41,19 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 history = model.fit(train_data, epochs=epochs, verbose=1)
+
+plt.plot(history.history['accuracy'], label='accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.ylim([0, 1])
+plt.legend(loc='lower right')
+plt.show()
+
+plt.plot(history.history['loss'], label = 'loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.ylim([0, 100])
+plt.legend(loc='lower right')
+plt.show()
 
 test_loss, test_acc = model.evaluate(test_data, verbose=1)
