@@ -29,9 +29,10 @@ namespace DetectingAppleDiseases
         public void TrainModel(IEnumerable<ImageData> inputData, 
                                Action<string> log,
                                Architecture modelArch,
+                               int? randomizeSeed = null,
                                bool shuffle = true,
                                double validationSplit = 0.25,
-                               int epoch = 10,
+                               int epochs = 10,
                                int batchSize = 32,
                                float learningRate = 0.01f)
         {
@@ -39,12 +40,12 @@ namespace DetectingAppleDiseases
             stopWatch.Start();
             var imageDataView = _ctx.Data.LoadFromEnumerable(inputData);
 
-            if (shuffle) imageDataView = _ctx.Data.ShuffleRows(imageDataView);
+            if (shuffle) imageDataView = _ctx.Data.ShuffleRows(imageDataView, seed: randomizeSeed);
             
             var trainValidationData = _ctx.Data.TrainTestSplit(imageDataView, testFraction: validationSplit);
             var (trainSet, validationSet) = CreateTrainingSets(trainValidationData);
             
-            _predictionModel = CreateModel(modelArch, (trainSet, validationSet), epoch, batchSize, learningRate);
+            _predictionModel = CreateModel(modelArch, (trainSet, validationSet), epochs, batchSize, learningRate);
             _predictionEngine = _ctx.Model.CreatePredictionEngine<ImageModelInput, ImagePrediction>(_predictionModel);
             
             stopWatch.Stop();
@@ -55,12 +56,11 @@ namespace DetectingAppleDiseases
             log("Training model runTime: " + elapsedTime);
         }
 
-        public IDataView TestModel(IEnumerable<ImageModelInput> inputData)
+        public IEnumerable<ImagePrediction> TestModel(IEnumerable<ImageModelInput> inputData)
         {
             var testDataView = _ctx.Data.LoadFromEnumerable(inputData);
             var testSet = CreateTestSet(testDataView);
-
-            return _predictionModel.Transform(testSet);
+            return _ctx.Data.CreateEnumerable<ImagePrediction>(_predictionModel.Transform(testSet), reuseRowObject: false);
         }
 
         public void Evaluate(IDataView predDataView, 
@@ -147,7 +147,7 @@ namespace DetectingAppleDiseases
                 LearningRate = learningRate,
                 LabelColumnName = "LabelKey",
                 FeatureColumnName = "Image",
-                MetricsCallback = (metrics) => Console.WriteLine(metrics),
+                //MetricsCallback = (metrics) => Console.WriteLine(metrics),
                 ValidationSet = sets.validationSet
             };
 

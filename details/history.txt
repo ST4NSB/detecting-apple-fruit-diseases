@@ -1,0 +1,2088 @@
+ *** Wait a few minutes .. This make take a while..
+2021-12-25 11:55:15.523238: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fju2fih5.nxi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:53.64 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 55
+ Batch size: 32
+ Learning rate: 1E-07
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\cbwqymj0.yxk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:52.92 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 35
+ Batch size: 76
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jlrcbdzh.xmz\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:54.87 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 44
+ Batch size: 84
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.775
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\wzi5goqw.xdx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.20 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 47
+ Batch size: 85
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\0macleuh.00l\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:56.62 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 28
+ Batch size: 29
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\o1tftp5c.hrc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:54.81 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 39
+ Batch size: 80
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2ft0aeig.zn0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:56.70 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 36
+ Batch size: 15
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\wz2vfdpb.0ck\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:57.42 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 79
+ Batch size: 37
+ Learning rate: 1E-08
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qzexwgvg.1in\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.04 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 32
+ Batch size: 34
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jgqkt3zp.hnr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.57 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 54
+ Batch size: 27
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mdl1jxz3.1zc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.39 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 14
+ Batch size: 80
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.775
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2vvxrc41.k1p\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:57.00 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 46
+ Batch size: 52
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\l5qxskag.chi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:56.93 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 70
+ Batch size: 77
+ Learning rate: 1E-07
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5dyfpgiz.ahk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.45 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 41
+ Batch size: 59
+ Learning rate: 0.1
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\sgwwiwak.zvs\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:57.72 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 96
+ Batch size: 42
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\umnwop0w.ylx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:57.16 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 71
+ Batch size: 45
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uam1wprm.hb1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.69 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 29
+ Batch size: 39
+ Learning rate: 1E-05
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\s1msgt14.gtq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.32 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 28
+ Batch size: 66
+ Learning rate: 1E-09
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\xod2mbvn.pml\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.08 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 87
+ Batch size: 30
+ Learning rate: 1E-07
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kdo0srsm.skj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.54 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 7
+ Batch size: 27
+ Learning rate: 1E-09
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\cvntxj05.lr5\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.38 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 40
+ Batch size: 30
+ Learning rate: 1E-07
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2bcft5qr.4gc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.23 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 33
+ Batch size: 94
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\k34zfmea.ycy\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.66 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 78
+ Batch size: 44
+ Learning rate: 0.1
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uawg5c4f.isu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.97 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 93
+ Batch size: 14
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fddgh4el.dlq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.08 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 66
+ Batch size: 13
+ Learning rate: 1E-07
+ ! Fitness (Accuracy): 0.775
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\a0rubjiu.4gn\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.88 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 54
+ Batch size: 36
+ Learning rate: 0.1
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\h0l0b2ny.o1o\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.06 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 17
+ Batch size: 29
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jtxiyq23.1ht\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.89 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 47
+ Batch size: 41
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zez0sul0.bn4\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.15 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 92
+ Batch size: 66
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\eocc5vfv.21c\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.13 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 24
+ Batch size: 99
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\irntjrzu.rht\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.30 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 58
+ Batch size: 97
+ Learning rate: 0.0001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\w0aih0t4.x11\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.26 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 52
+ Batch size: 25
+ Learning rate: 0.1
+ ! Fitness (Accuracy): 0.775
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\pwbe0v0u.5fo\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.95 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 38
+ Batch size: 18
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mmupmg2o.cit\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.61 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 13
+ Batch size: 91
+ Learning rate: 1E-09
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\oymxaqo3.1oy\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.14 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 42
+ Batch size: 96
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.81666666
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\adgwvnav.dpw\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:57.63 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 15
+ Batch size: 57
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vvhfldv3.44r\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.63 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 40
+ Batch size: 64
+ Learning rate: 1E-07
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\urwhlshy.xas\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.85 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 73
+ Batch size: 29
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\yvm0bavs.fg3\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.97 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 23
+ Batch size: 40
+ Learning rate: 1E-09
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\yjxvo2k0.urq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.30 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 81
+ Batch size: 75
+ Learning rate: 1E-05
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mcqj2rbh.3wz\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.14 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 40
+ Batch size: 87
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.775
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zuu2cmre.smp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.16 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 78
+ Batch size: 61
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lt2zh4k2.m0s\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.87 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 91
+ Batch size: 87
+ Learning rate: 1E-05
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\4ujdyc4d.jbr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:59.78 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 53
+ Batch size: 64
+ Learning rate: 1E-08
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\3uhgrqn2.mae\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.13 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 41
+ Batch size: 23
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\hjc40xqz.gkj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:57.42 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 31
+ Batch size: 51
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\cvbjj2xh.zwd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.30 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 38
+ Batch size: 89
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\z2asuwxl.dgf\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.84 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 82
+ Batch size: 24
+ Learning rate: 1E-08
+ ! Fitness (Accuracy): 0.775
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\gxizx5xg.0hk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.36 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 67
+ Batch size: 82
+ Learning rate: 0.1
+ ! Fitness (Accuracy): 0.78333336
+ *** ------------ ***
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lltfe2hx.pdv\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.71 (Hours:Minutes:Seconds.Milliseconds)
+ *** Chromosome configuration ***
+ Number of epochs: 91
+ Batch size: 52
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.7916667
+ *** ------------ ***
+ ~~~~~
+ Generation number: 1
+ *** Chromosome configuration ***
+ Number of epochs: 42
+ Batch size: 96
+ Learning rate: 1E-06
+ ! Fitness (Accuracy): 0.81666666
+ *** ------------ ***
+ Learning rate (min, max): 7, 8
+ Learning rate (min, max): 1, 7
+ Learning rate (min, max): 1, 7
+ Learning rate (min, max): 5, 9
+ Learning rate (min, max): 3, 5
+ Learning rate (min, max): 3, 6
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 5, 5
+ Learning rate (min, max): 3, 7
+ Learning rate (min, max): 5, 7
+ Learning rate (min, max): 3, 3
+ Learning rate (min, max): 3, 3
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 3, 8
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 5, 7
+ Learning rate (min, max): 7, 8
+ Learning rate (min, max): 3, 6
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 3, 7
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 1, 9
+ Learning rate (min, max): 3, 5
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 3, 9
+ Crossover completed! Number of children: 50
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jkymxzr2.mzv\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.83 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ss5bkjoi.s0o\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.11 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\bxtbvoop.vfk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.08 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ryoopc5e.j40\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:00:58.92 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\nif3cusp.f2h\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.51 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kputg1np.zs1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.72 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\4honqvcz.mmj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.52 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\iz4qbju5.4nt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.50 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5r4tk0yy.rpx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.19 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\oaejwtmu.emr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.73 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\3ii5quzi.us2\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.98 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vjzhnqzg.dgu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.82 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qckabjsh.zbe\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.20 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\cei4ejbt.zno\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.06 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qrvsb4j3.1ib\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.33 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\slz4jvz4.bec\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.72 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mlwbvpvg.xxg\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.26 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qlxq5hm3.x4k\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.39 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vnsov0uc.rpa\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.68 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\dssqjiv4.bpp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.94 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\iq3jtgik.xzl\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.60 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ow2wdpt5.kzj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.07 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5o2c45jg.a2o\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.80 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\z4mxdm4t.4q1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.94 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\shswatk2.uyu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.99 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zy1wwvqh.42i\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.04 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\axdoa1vq.edp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.65 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\g2pncio2.ezr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.83 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\on3xaqs3.zlb\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.40 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uq12cyq1.5o0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.21 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5s5odhpg.ipa\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.25 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\0cpz2kv3.m1g\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.40 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\dsre3v3a.sjd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.53 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lfjuwkkz.lp1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.99 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ilj00phu.yai\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.17 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\h2zgmjar.2xn\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.65 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\4nv4rzkh.0v0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.94 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jckenuvs.a1w\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.98 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\4ck0hr5t.m5r\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.23 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lctx2xii.jpn\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.25 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mg4vjsoj.agf\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.46 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\u2ndbtqz.le4\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.52 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\wvfpjxcw.h02\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.05 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\nralpw4a.cie\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.00 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\becflsx1.ghj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.98 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vc2acduu.vlk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.45 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vyvmtnfg.pxp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.92 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\eauud4c0.eqd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.85 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zb3ypwll.mme\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.28 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\rwqgmhuw.fpu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.33 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 2
+ *** Chromosome configuration ***
+ Number of epochs: 31
+ Batch size: 67
+ Learning rate: 1E-05
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+ Learning rate (min, max): 6, 7
+ Learning rate (min, max): 3, 3
+ Learning rate (min, max): 5, 6
+ Learning rate (min, max): 3, 6
+ Learning rate (min, max): 1, 9
+ Learning rate (min, max): 7, 8
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 3, 3
+ Learning rate (min, max): 5, 6
+ Learning rate (min, max): 3, 9
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\wqitwto5.www\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.65 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\id2bd4bp.fgq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.30 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\dl2taqxw.ipa\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.58 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zg1vxxt1.j1i\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.75 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\baignogo.c4f\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.91 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\eyq3ogjz.p33\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.89 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\0ejj0uir.znp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:00.94 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mohqgn3r.lxr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.20 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ufoxwe32.kbk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.77 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jwmhveiw.amj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:01.43 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\01if1jx1.nvg\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.24 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\usq3o0ck.dcg\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.47 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ceukvm4y.h2r\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.67 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uguk4evd.pzp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.88 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\aoicdpyo.iuq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.46 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\tdc5g2tt.snq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.01 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lwc1pl32.cl3\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.31 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5obk4vsl.cou\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.52 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\hh4yzlrf.gq0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.16 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\dtoumuti.amz\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.10 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 3
+ *** Chromosome configuration ***
+ Number of epochs: 38
+ Batch size: 94
+ Learning rate: 1E-05
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+ Learning rate (min, max): 6, 7
+ Learning rate (min, max): 3, 3
+ Learning rate (min, max): 3, 8
+ Learning rate (min, max): 3, 9
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 3, 6
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 5
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\s1x441sl.moe\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.43 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\1ohrn151.13n\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.70 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\pfl3xlau.2nt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.99 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\1kxailin.ide\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.09 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\drozbcgd.hgx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.46 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\gps0exd3.5zx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.34 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mp1kuwcc.tyu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.26 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\n1ucykxu.imy\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.97 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uzuqe5uo.sxs\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.78 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ns33pzl5.qs5\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.30 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\43gqoius.ufo\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.17 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mwzfzpeq.fba\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.01 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\tjluzc0k.mu2\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.66 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\micafm2j.foj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.29 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\l1nmlnwi.42p\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.93 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\nvhbnh0v.cna\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.63 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\monl4dhd.uas\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.07 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\pfsfdkk3.hhc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.47 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qeu4jlwy.myt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.18 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\eumu011t.odi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.33 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 4
+ *** Chromosome configuration ***
+ Number of epochs: 40
+ Batch size: 41
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.825
+ *** ------------ ***
+ Learning rate (min, max): 3, 8
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 3, 6
+ Learning rate (min, max): 3, 7
+ Learning rate (min, max): 3, 6
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\flqkz1fk.kna\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.16 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ffwkaw4k.wea\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.81 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\eol5h5vr.jyf\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.02 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\n4h1klyu.cvb\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.91 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\gzj3k2jm.toq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.32 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\riz1zi21.p2z\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.15 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qmdl0cos.ovi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:02.79 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\d1jdmwkp.50q\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.60 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ok0j25yd.5pt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.85 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2gdniuuo.frm\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.55 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vjzzxtvf.cvo\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.23 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\hchzx1ki.hes\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.55 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\oyd0un53.gnf\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.51 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\1ujnufgv.la4\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.20 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\0rmmrfee.pjr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.83 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\sekxjn12.qrr\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.15 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ogkaaodi.aey\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.03 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\drofxgai.tis\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.11 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\hj4wmygb.3i1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.75 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ccczsctd.acd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.94 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 5
+ *** Chromosome configuration ***
+ Number of epochs: 77
+ Batch size: 82
+ Learning rate: 0.001
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 9
+ Learning rate (min, max): 3, 9
+ Learning rate (min, max): 1, 7
+ Learning rate (min, max): 7, 8
+ Learning rate (min, max): 1, 9
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 5, 6
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 3, 7
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uhhhckc2.n5c\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.29 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fnkog5qh.534\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.42 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\jgmuvz35.qa1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.32 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\u1g2zqg0.v15\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.52 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\l3f3ubnz.rm5\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.11 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zid3p2nv.a0s\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.62 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\i3bz01uz.n4n\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.41 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vf0mt5fi.tvl\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.53 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\1myadcof.me0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.04 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lanvui2v.net\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.47 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\n4p5m3nx.voo\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.38 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\cg5q5wm3.2iu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.26 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kjnj25dr.dxd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.32 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fei1lu10.jsi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.86 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\yi1ckeug.ugf\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.13 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2txp1gcm.okp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.94 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qulbvzv2.dbs\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.42 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\45lbshyu.u40\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:08.50 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\gyqs2xms.rz1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.74 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\yznnkzvd.spy\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.86 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 6
+ *** Chromosome configuration ***
+ Number of epochs: 62
+ Batch size: 96
+ Learning rate: 1E-09
+ ! Fitness (Accuracy): 0.825
+ *** ------------ ***
+ Learning rate (min, max): 1, 7
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 8, 8
+ Learning rate (min, max): 1, 5
+ Learning rate (min, max): 1, 10
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 1, 3
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\3ph4udw3.tvi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.96 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vjjkaipy.aun\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.25 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\yo4hp3wl.i4o\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.60 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qh0obr3v.nsk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.67 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\rhqwvn10.p0c\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.38 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5qpmx1oj.k4q\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.71 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\wxlmmkzg.0z4\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:09.08 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\c3okb0pb.dpa\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.58 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kzathljw.jal\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.19 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mqy1dgs3.4hg\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.47 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\sdb4z4c5.q00\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.04 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\4ydefpul.sll\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.27 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lszkx33u.nea\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.40 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\rzr0jgit.zwv\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.81 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\0axihi45.dxg\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.93 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\q2mxvnft.hnx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.00 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ilxv2oh5.1gk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.76 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\g2hyzbf0.kg2\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.59 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fzntnir0.tih\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.38 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ghz4tnx3.bur\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.38 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 7
+ *** Chromosome configuration ***
+ Number of epochs: 77
+ Batch size: 37
+ Learning rate: 1E-05
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+ Learning rate (min, max): 6, 9
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 3, 7
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 5
+ Learning rate (min, max): 1, 3
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\3zqkbp3p.nb3\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.71 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ao3hc5w2.512\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.93 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\oypciviv.ljp\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.98 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kq1igmfj.2rc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.28 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kzke3imd.fdv\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.04 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\svd22br2.ljd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.98 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\cvq3g0yj.5ya\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.99 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\24kbbooc.vfc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.60 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\d01fscvp.2pk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.72 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\3ln5egrq.3wz\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.89 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uzlucmo1.exk\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.43 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\grj3a0o4.j2i\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.76 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fnrsf4qa.zei\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.50 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\0x2yuw1c.5ia\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.27 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\n4ga05jy.vxu\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.09 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zgynm3yh.zbt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.05 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\uxyig3zm.cbi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.40 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\d0qkl4te.3d0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.20 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\lfnktlmc.s5d\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.58 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mlzl5ujy.ajg\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.81 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 8
+ *** Chromosome configuration ***
+ Number of epochs: 34
+ Batch size: 62
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.8
+ *** ------------ ***
+ Learning rate (min, max): 3, 7
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 7, 8
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 3, 5
+ Learning rate (min, max): 3, 6
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 3, 3
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\1tv5ngny.0am\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.00 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\dvovu1ur.kwa\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:08.75 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\a4pwcmlm.tcq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:08.12 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2ikaxviy.rfx\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.23 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\puz0k5gt.hzt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.31 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fmerm4vc.4ql\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.15 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\b3wjmcmf.hxq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.20 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\yelo0fkr.2pa\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.38 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5g1ib30x.im2\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.32 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\enblr1nn.utt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.51 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\gm02p505.pkm\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.96 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\n3styo0p.4lt\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.58 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2fhoiewa.t21\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.24 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\vb10ghmp.5bb\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:12.44 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\nxtw5w2h.db1\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.36 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ooubydqo.2wi\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.22 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zfpr1xon.ehe\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:03.60 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\dwoi2vt0.ru0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.52 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\i35ifhnz.xh4\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:08.37 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mhlyzlhj.qyo\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.80 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 9
+ *** Chromosome configuration ***
+ Number of epochs: 62
+ Batch size: 29
+ Learning rate: 0.1
+ ! Fitness (Accuracy): 0.80833334
+ *** ------------ ***
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 8
+ Learning rate (min, max): 1, 6
+ Learning rate (min, max): 3, 9
+ Learning rate (min, max): 3, 8
+ Learning rate (min, max): 1, 3
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 1, 1
+ Learning rate (min, max): 3, 7
+ Learning rate (min, max): 3, 7
+ Crossover completed! Number of children: 20
+ Done crossover
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ndyaubxv.0pl\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.14 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\wq3skcpy.cxq\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.76 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ytlgxmyu.bd0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.86 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\on0w4p0p.yby\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.02 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\3bqhbpou.0bd\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.33 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\kmp452ij.4qe\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.37 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\d0qa4imn.pm0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.73 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\1nhezcs5.enf\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.60 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\zfvhppvu.1fc\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:05.88 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\qq0hycpd.fqv\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.95 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fs1ovfkk.i5q\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:04.50 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\aovfa35e.2dh\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.39 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\p51nqywf.xju\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.06 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\fr4gd3u4.arl\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.27 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\5fjaz4sr.3u0\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:06.86 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\mzh0ige0.phj\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:09.22 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\ssichtui.3ic\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.73 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\skretsri.eap\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:08.65 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\egrgi0uc.p4m\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.13 (Hours:Minutes:Seconds.Milliseconds)
+Saver not created because there are no variables in the graph to restore
+Saver not created because there are no variables in the graph to restore
+Restoring parameters from C:\Users\AdiB\AppData\Local\Temp\2qptoxrn.c2i\custom_retrained_model_based_on_resnet_v2_50_299.meta
+Froze 2 variables.
+Converted 2 variables to const ops.
+Training model runTime: 00:01:07.06 (Hours:Minutes:Seconds.Milliseconds)
+ Done mutating & calculating fitness
+ ~~~~~
+ ~~~~~
+ Generation number: 10
+ *** Chromosome configuration ***
+ Number of epochs: 84
+ Batch size: 17
+ Learning rate: 0.01
+ ! Fitness (Accuracy): 0.81666666
+ *** ------------ ***
+
+
+50 population
+20 selection
+10 generations
