@@ -35,7 +35,7 @@ namespace DetectingAppleDiseases
             }
         }
 
-        public GeneticOptimizer(int initialPopulation = 40, int populationSelection = 20, int totalNumberOfGenerations = 15)
+        public GeneticOptimizer(int initialPopulation = 50, int populationSelection = 30, int totalNumberOfGenerations = 20)
         {
             _deepLearningModel = new DeepLearning(_trainPath, _testPath);
 
@@ -178,21 +178,21 @@ namespace DetectingAppleDiseases
                 var newEpochs = child.Epochs;
                 var newBatchSize = child.BatchSize;
                 var newLearningRate = child.LearningRate;
-               
+
+                var learningFactor = GetLearningRateIntervalNumber(newLearningRate);
+
                 var mutationProbability = rand.Next(10) + 1;
                 if (mutationProbability <= _mutationThreshold)
                 {
                     newEpochs = NegateBit(newEpochs, rand.Next(7));
-                    newEpochs = newEpochs < _epochMin ? _epochMin : newEpochs;
-                    
                     newBatchSize = NegateBit(newBatchSize, rand.Next(7));
-                    newBatchSize = newBatchSize < _batchSizeMin ? _batchSizeMin : newBatchSize;
-
-                    var lrMutated = NegateBit(GetLearningRateIntervalNumber(newLearningRate), rand.Next(3));
-                    lrMutated = lrMutated < _learningRateMin ? _learningRateMin : lrMutated;
-
-                    newLearningRate = (float)Math.Pow(10, 0 - lrMutated);
+                    learningFactor = NegateBit(learningFactor, rand.Next(3));
                 }
+
+                newEpochs = newEpochs < _epochMin ? _epochMin : newEpochs;
+                newBatchSize = newBatchSize < _batchSizeMin ? _batchSizeMin : newBatchSize;
+                learningFactor = learningFactor < _learningRateMin ? _learningRateMin : learningFactor;
+                newLearningRate = (float)Math.Pow(10, 0 - learningFactor);
 
                 mutatedChilds.Add(new ChromosomeInformation(newEpochs, 
                                                             newBatchSize, 
