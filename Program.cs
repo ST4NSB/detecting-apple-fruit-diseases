@@ -8,7 +8,7 @@ namespace DetectingAppleDiseases
         static void Main(string[] args)
         {
             GeneticOptimizer go = new GeneticOptimizer();
-            go.GenerateWorld();
+            go.StartGeneticOptimizationProcess();
         }
     }
 }

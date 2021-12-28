@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DetectingAppleDiseases
 {
     public class GeneticOptimizer
     {
         private const int _seed = 42;
-        private const int _epochMin = 1, _epochMax = 101; // 1 - 100
-        private const int _batchSizeMin = 10, _batchSizeMax = 101; // 10 - 100 
-        private const int _learningRateMin = 1, _learningRateMax = 10; // 1 - 9
+        private const int _epochMin = 1, _epochMax = 128;
+        private const int _batchSizeMin = 1, _batchSizeMax = 128; 
+        private const int _learningRateMin = 1, _learningRateMax = 8;
 
-        private const float _fitnessThreshold = 8.25f;
+        private const float _fitnessThreshold = 8.25f, _mutationThreshold = 0.4f;
 
-        private int _population, _selection, _generationTotalNumbers;
+        private DeepLearning _deepLearningModel;
+        private int _initialPopulation, _populationSelection, _generationTotalNumbers;
         private IEnumerable<ImageData> _trainImages;
         private IEnumerable<ImageModelInput> _testImages;
         private string _testPath, _trainPath;
@@ -26,7 +26,7 @@ namespace DetectingAppleDiseases
             public float LearningRate;
             public float Fitness;
 
-            public ChromosomeInformation(int epochs, int batchSize, float learningRate, float fitness = float.MaxValue)
+            public ChromosomeInformation(int epochs, int batchSize, float learningRate, float fitness = float.MinValue)
             {
                 Epochs = epochs;
                 BatchSize = batchSize;
@@ -35,24 +35,26 @@ namespace DetectingAppleDiseases
             }
         }
 
-        public GeneticOptimizer(int population = 12, int selection = 6, int totalNumberOfGenerations = 15)
+        public GeneticOptimizer(int initialPopulation = 40, int populationSelection = 20, int totalNumberOfGenerations = 15)
         {
-            _population = population;
-            _selection = selection;
-            _generationTotalNumbers = totalNumberOfGenerations;
-        }
+            _deepLearningModel = new DeepLearning(_trainPath, _testPath);
 
-        public void GenerateWorld()
-        {
             _trainPath = Helpers.GetDatasetImagesPath(evaluationType: "Train");
             _trainImages = Helpers.GetTrainingImages();
 
             _testPath = Helpers.GetDatasetImagesPath(evaluationType: "Test");
             _testImages = Helpers.GetTestImages();
 
+            _initialPopulation = initialPopulation;
+            _populationSelection = populationSelection;
+            _generationTotalNumbers = totalNumberOfGenerations;
+        }
+
+        public void StartGeneticOptimizationProcess()
+        {
             Console.WriteLine(" *** Wait a few minutes .. This make take a while..");
             var chromosomes = new List<ChromosomeInformation>();
-            for (int i = 0; i < _population; i++)
+            for (int i = 0; i < _initialPopulation; i++)
             {
                 var chromosome = GenerateRandomChromosome();
                 var fitness = GetFitnessValue(chromosome);
@@ -64,26 +66,25 @@ namespace DetectingAppleDiseases
             }
 
             chromosomes = chromosomes.OrderByDescending(x => x.Fitness).ToList();
+            chromosomes = chromosomes.Take(_populationSelection).ToList();
 
             var generation = 1;
             while (generation <= _generationTotalNumbers)
             {
-                Console.WriteLine(" ~~~~~");
+                Console.WriteLine(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 Console.WriteLine($" Generation number: {generation++}");
-                PrintInformations(chromosomes[0]);
+                PrintInformations(chromosomes.First());
 
                 var childs = ApplyCrossover(chromosomes);
-                Console.WriteLine(" Done crossover");
                 var mutatedChilds = MutateChilds(childs);
-                Console.WriteLine(" ~~~~~");
-                chromosomes = new List<ChromosomeInformation>(mutatedChilds);
-                chromosomes = chromosomes.OrderByDescending(x => x.Fitness).ToList();
-                chromosomes = chromosomes.Take(_selection).ToList();
+                Console.WriteLine(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                chromosomes = mutatedChilds.OrderByDescending(x => x.Fitness).ToList();
+                chromosomes = chromosomes.Take(_populationSelection).ToList();
 
                 if (chromosomes.First().Fitness >= _fitnessThreshold) break;
             }
 
-            PrintInformations(chromosomes[0]);
+            PrintInformations(chromosomes.First());
         }
 
         private void PrintInformations(ChromosomeInformation chromosome)
@@ -93,7 +94,7 @@ namespace DetectingAppleDiseases
             Console.WriteLine($" Batch size: {chromosome.BatchSize}");
             Console.WriteLine($" Learning rate: {chromosome.LearningRate}");
             Console.WriteLine($" ! Fitness (Accuracy): {chromosome.Fitness}");
-            Console.WriteLine(" *** ------------ ***");
+            Console.WriteLine(" *** ------------------------ ***");
         }
 
         private List<ChromosomeInformation> ApplyCrossover(List<ChromosomeInformation> parents)
@@ -103,39 +104,68 @@ namespace DetectingAppleDiseases
 
             for (int i = 0; i < parents.Count; i += 2)
             {
-                var epochMin = Math.Min(parents[i].Epochs, parents[i + 1].Epochs);
-                var epochMax = Math.Max(parents[i].Epochs, parents[i + 1].Epochs);
-
-                var batchSizeMin = Math.Min(parents[i].BatchSize, parents[i + 1].BatchSize);
-                var batchSizeMax = Math.Max(parents[i].BatchSize, parents[i + 1].BatchSize);
-
-
-                var epochsIn = rand.Next(epochMin, epochMax + 1);
-                var batchSizeIn = rand.Next(batchSizeMin, batchSizeMax + 1);
-
-                var lrFirst = GetLearningRateIntervalNumber(parents[i].LearningRate);
-                var lrSecond = GetLearningRateIntervalNumber(parents[i+1].LearningRate);
-
-                var learningRateMin = Math.Min(lrFirst, lrSecond) == 0 ? _learningRateMin : Math.Min(lrFirst, lrSecond);
-                var learningRateMax = Math.Max(lrFirst, lrSecond) == 0 ? _learningRateMax : Math.Max(lrFirst, lrSecond);
-                var learningRateIn = rand.Next(learningRateMin, learningRateMax + 1);
-
-                childs.Add(new ChromosomeInformation(epochsIn, batchSizeIn, (float)Math.Pow(10, 0 - learningRateIn)));
-
-                var prePostInterval = rand.Next(2); // pre - 0, post - 1
-                var epochOut = prePostInterval == 0 ? rand.Next(_epochMin, epochMin) : rand.Next(epochMax, _epochMax);
-                prePostInterval = rand.Next(2);
-                var batchSizeOut = prePostInterval == 0 ? rand.Next(_batchSizeMin, batchSizeMin) : rand.Next(batchSizeMax, _batchSizeMax);
-                prePostInterval = rand.Next(2);
-                Console.WriteLine($" Learning rate (min, max): {learningRateMin}, {learningRateMax}");
-                var learningRateOut = prePostInterval == 0 ? rand.Next(_learningRateMin, learningRateMin) : rand.Next(learningRateMax, _learningRateMax);
-
-                childs.Add(new ChromosomeInformation(epochOut, batchSizeOut, (float)Math.Pow(10, 0 - learningRateOut)));
+                var (firstChildEpoch, secondChildEpoch) = GetCrossOverOffspring(parents[i].Epochs, parents[i+1].Epochs, bitsToPass: 1, rand.Next(7));
+                var (firstChildBatchSize, secondChildBatchSize) = GetCrossOverOffspring(parents[i].BatchSize, parents[i+1].BatchSize, bitsToPass: 1, rand.Next(7));
+                var (firstChildLearningRate, secondChildLearningRate) = GetCrossOverOffspring(GetLearningRateIntervalNumber(parents[i].LearningRate),
+                                                                                              GetLearningRateIntervalNumber(parents[i+1].LearningRate), 
+                                                                                              bitsToPass: 5, 
+                                                                                              rand.Next(3));
+                
+                childs.Add(new ChromosomeInformation(firstChildEpoch, firstChildBatchSize, (float)Math.Pow(10, 0 - firstChildLearningRate)));
+                childs.Add(new ChromosomeInformation(secondChildEpoch, secondChildBatchSize, (float)Math.Pow(10, 0 - secondChildLearningRate)));
             }
 
             Console.WriteLine($" Crossover completed! Number of children: {childs.Count}");
 
             return childs;
+        }
+
+        // one point crossover
+        private (int firstChild, int secondChild) GetCrossOverOffspring(int parent1, int parent2, int bitsToPass, int randValue)
+        {
+            byte p1Byte = (byte)parent1;
+            byte p2Byte = (byte)parent2;
+            int res1 = 0, res2 = 0;
+            int passedBits = 0, randCounting = 0;
+
+            while (passedBits < 8)
+            {
+                if (passedBits < bitsToPass)
+                {
+                    passedBits++;
+                    p1Byte <<= 1;
+                    p2Byte <<= 1;
+                    continue;
+                }
+
+                var msbP1 = (p1Byte & 0x80) != 0;
+                var msbP2 = (p2Byte & 0x80) != 0;
+
+                if (randCounting <= randValue)
+                {
+                    res1 += (msbP1) ? 1 : 0;
+                    res2 += (msbP2) ? 1 : 0;
+                }
+                else
+                {
+                    res1 += (msbP2) ? 1 : 0;
+                    res2 += (msbP1) ? 1 : 0;
+                }
+
+                res1 <<= 1;
+                res2 <<= 1;
+
+                p1Byte <<= 1;
+                p2Byte <<= 1;
+
+                randCounting++;
+                passedBits++;
+            }
+
+            res1 >>= 1;
+            res2 >>= 1;
+
+            return (res1, res2);
         }
 
         private List<ChromosomeInformation> MutateChilds(List<ChromosomeInformation> childs)
@@ -149,18 +179,19 @@ namespace DetectingAppleDiseases
                 var newBatchSize = child.BatchSize;
                 var newLearningRate = child.LearningRate;
                
-                var mutationConfig = rand.Next(6);
-                switch(mutationConfig)
+                var mutationProbability = rand.Next(10) + 1;
+                if (mutationProbability <= _mutationThreshold)
                 {
-                    case 0:
-                        newEpochs = rand.Next(_epochMin, _epochMax);
-                        break;
-                    case 1:
-                        newBatchSize = rand.Next(_batchSizeMin, _batchSizeMax);
-                        break;
-                    case 2:
-                        newLearningRate = (float)Math.Pow(10, 0 - rand.Next(_learningRateMin, _learningRateMax));
-                        break;
+                    newEpochs = NegateBit(newEpochs, rand.Next(7));
+                    newEpochs = newEpochs < _epochMin ? _epochMin : newEpochs;
+                    
+                    newBatchSize = NegateBit(newBatchSize, rand.Next(7));
+                    newBatchSize = newBatchSize < _batchSizeMin ? _batchSizeMin : newBatchSize;
+
+                    var lrMutated = NegateBit(GetLearningRateIntervalNumber(newLearningRate), rand.Next(3));
+                    lrMutated = lrMutated < _learningRateMin ? _learningRateMin : lrMutated;
+
+                    newLearningRate = (float)Math.Pow(10, 0 - lrMutated);
                 }
 
                 mutatedChilds.Add(new ChromosomeInformation(newEpochs, 
@@ -174,9 +205,24 @@ namespace DetectingAppleDiseases
             return mutatedChilds;
         }
 
+        private int NegateBit(int chromosome, int position)
+        {
+            var newVal = chromosome;
+            var negBit = (chromosome & (1 << position)) != 0;
+            if (negBit)
+            {
+                newVal &= ~(1 << position);
+            }
+            else
+            {
+                newVal |= 1 << position;
+            }
+            return newVal;
+        }
+
         private int GetLearningRateIntervalNumber(float learningRate)
         {
-            var lr = learningRate;
+            decimal lr = (decimal)learningRate;
             int counts = 0;
             while(lr < 1)
             {
@@ -197,23 +243,20 @@ namespace DetectingAppleDiseases
             return (epochs, batchSize, learningRate: (float)Math.Pow(10, 0 - lr));
         }
 
-
         private float GetFitnessValue((int epochs, int batchSize, float learningRate) chromosomeData)
         {
-            DeepLearning dl = new DeepLearning(_trainPath, _testPath);
-            dl.TrainModel(_trainImages,
+            _deepLearningModel.TrainModel(_trainImages,
                          (msg) => Console.WriteLine(msg),
-                         modelArch: Microsoft.ML.Vision.ImageClassificationTrainer.Architecture.ResnetV250,
+                         modelArch: Microsoft.ML.Vision.ImageClassificationTrainer.Architecture.MobilenetV2,
                          randomizeSeed: _seed, 
                          epochs: chromosomeData.epochs,
                          batchSize: chromosomeData.batchSize,
                          learningRate: chromosomeData.learningRate);
 
-            var results = dl.TestModel(_testImages);
+            var results = _deepLearningModel.TestModel(_testImages);
             var fitness = Evaluation.GetNaiveAccuracy(results);
 
             return fitness;
         }
-
     }
 }
